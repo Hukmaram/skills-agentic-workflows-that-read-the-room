@@ -5,7 +5,6 @@ strict: true
 model: gpt-4o
 engine:
   id: copilot
-  args: ["--effort", "none"]
 on:
   schedule: daily
   workflow_dispatch:
