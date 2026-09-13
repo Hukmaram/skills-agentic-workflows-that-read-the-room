@@ -2,7 +2,7 @@
 name: update-github-info
 description: Refresh the GitHub Info page with practical updates from official GitHub sources.
 strict: true
-model: gpt-5.4
+model: gpt-4o
 on:
   schedule: daily
   workflow_dispatch:
