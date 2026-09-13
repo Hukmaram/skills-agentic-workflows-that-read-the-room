@@ -2,7 +2,7 @@
 name: update-github-info
 description: Refresh the GitHub Info page with practical updates from official GitHub sources.
 strict: true
-model: auto
+model: gpt-5.4
 engine:
   id: copilot
 on:
