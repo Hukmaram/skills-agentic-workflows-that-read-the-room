@@ -12,6 +12,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit: true
   web-fetch: {}
@@ -35,10 +36,12 @@ Follow these instructions exactly:
 1. Read `notes/mona-notes.md` and the current `site/content/github-info.md` using the GitHub repository API `get_file_contents` tool.
 2. Use the GitHub Blog by web-fetching `https://github.blog/latest/`.
 3. Use the GitHub Changelog by web-fetching `https://github.blog/changelog/`.
-4. Update `site/content/github-info.md` with the useful, supported findings.
+4. Use Awesome Copilot workflows by web-fetching `https://awesome-copilot.github.com/workflows/`.
+5. Update `site/content/github-info.md` with the useful, supported findings.
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Select only recent, useful updates that fit Mona's editorial angle. Keep the writing short and practical, focus on helping developers learn GitHub faster, and cite the original GitHub Blog or GitHub Changelog URL for every update. Preserve the existing page structure and edit only `site/content/github-info.md`.
 
