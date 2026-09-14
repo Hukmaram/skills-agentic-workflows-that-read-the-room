@@ -2,6 +2,7 @@
 name: update-github-info
 description: Refresh the GitHub Info page with practical updates from official GitHub sources.
 strict: true
+model: MAI-Code-1.1-Flash
 engine:
   id: copilot
 on:
